@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/made%20by-Binh%20Hong%20Ngoc-green">
 <a href="https://www.linkedin.com/in/binhhongngoc/">
-  <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Profile">
+<img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Profile">
 </a>
 </p>
 
@@ -21,9 +21,9 @@
 
 <h2 id="intro">Introduction</h2>
 
-Given an image, we would like to find out what its content is,  what it is about. The project therefore deals with an intersection of image processing and language processing, which has been an interesting topic and has got a lot of attention recently.
+Given an image, we would like to find out what its content is,  what it is about. Specifically, a caption will be generated in order to precisely describe the correspondng image. The topic therefore deals with an intersection of Computer Vision and Natural Language Processing, which has been an interesting topic and has got a lot of attention recently.
 
-In addition, I will be using the pre-trained model VGG16. VGG stands for Visual Geometry Group, a research group at the University of Oxford.
+In this project I will be using the pre-trained model VGG16. VGG stands for Visual Geometry Group, a research group at the University of Oxford.
 
 <p align="center">
 <br><br><img src="Pictures/VGG16.jpg" width="600" height="300">
@@ -32,14 +32,17 @@ In addition, I will be using the pre-trained model VGG16. VGG stands for Visual 
 <p>
 <h2 id="data">Dataset</h2>
 
-The dataset used in this project is Flickr8k, which can be downloaded via the <a href="https://www.kaggle.com/code/dbdmobile/image-captioner/input"> link </a>.
+The dataset used in this project is Flickr8k, which can be downloaded via the <a href="https://www.kaggle.com/code/dbdmobile/image-captioner/input"> link </a>. It contains a folder Images with 8091 pictures and a file captions.txt, each caption has 5 descriptions for an image.
 
 <h2 id="preprocessing">Data preprocessing</h2>
 A careful data preparation has been carried out, among them
 <ul>
-    <li> data cleaning: remove duplicates, spot missing values and impute on some stats: shot on target %, save % ...</li>
-    <li> outliers: an analysis of the outliers has been made. A correction has been performed to some values in several rows that appeared to be incorrect due to wrong calculation </li>
-    <li> feature engineering: LabelEncoder has been used, to add additional significant columns to the dataset. Moreover, the average performance of the last k=4 games has been calculated. Lastly, we have considered correlation matrix and picked the most significant features for the models </li>
+    <li> image data: the image features are extracted by using VGG16 </li>
+    <li> text data: - convert all words to lowercase.
+- remove all punctuation marks.
+- remove all words that are one character or less long (e.g. “a”).
+- remove all words with numbers in them </li>
+    
 </ul>
 
 <h2 id="models">Deep Learning model</h2>
