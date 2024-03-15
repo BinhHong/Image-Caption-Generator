@@ -38,16 +38,8 @@ The dataset used in this project is Flickr8k, which can be downloaded via the <a
 A careful data preparation has been carried out, among them
 <ul>
     <li> image data: the image features are extracted by using VGG16 </li>
-    <li> text data: 
-
-      <ul>
-    <li> convert all words to lowercase </li>
-    <li> remove all punctuation marks </li>
-    <li> remove all words that are one character or less long </li>
-    <li> remove all words with numbers in them </li>
-    </ul>
-</li>
-    
+    <li> text data: convert all words to lowercase, remove all punctuation marks, remove all words that are one character or less long, remove all words with numbers in them </li>
+ 
 </ul>
 
 <h2 id="models">Deep Learning model</h2>
