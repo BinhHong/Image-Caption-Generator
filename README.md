@@ -8,11 +8,6 @@
 
 <h1 align="center"> IMAGE CAPTION GENERATOR </h1>
 
-<p align="center">
-<br><br><img src="Pictures/Logo.png" width=500 height=500>
-</p>
-<br>
-<p>
   
 <h3> Table of contents </h3>
 <ol>
