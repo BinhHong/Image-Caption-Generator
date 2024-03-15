@@ -21,6 +21,9 @@
 
 <h2 id="intro">Introduction</h2>
 
+Given an image, we would like to find out what its content is,  what it is about. The project therefore deals with an intersection of image processing and language processing, which has been an interesting topic and has got a lot of attention recently.
+
+The dataset used in this project is Flickr8k, which can be downloaded via the <a href="https://www.kaggle.com/code/dbdmobile/image-captioner/input"> link </a>. In addition, I will be using the pre-trained model VGG16. VGG stands for Visual Geometry Group, a research group at the University of Oxford.
 
 <p align="center">
 <br><br><img src="Pictures/VGG16.jpg" width="600" height="300">
