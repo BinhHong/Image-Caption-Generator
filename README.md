@@ -53,7 +53,14 @@ A careful data preparation has been carried out, among them
 </ul>
 
  <h2 id="results">Results and interpretation</h2>
-...
+
+Image | Caption 
+--- | --- 
+<img src="Pictures/test3.jpg" width="400"> | **Generated Caption:** The boy is swinging on the playground.
+<img src="Pictures/test4.jpg" width="400"> | **Generated Caption:** Two dogs are playing in the snow.
+<img src="Pictures/test5.jpg"> | **Generated Caption:** dog running on the beach.
+<img src="Pictures/test6.jpg" width="400"> | **Generated Caption:** two young adults stand on the street.
+<img src="Pictures/test2.jpg" width="400"> | **Generated Caption:** Man is being pulled off the dock at the end of boat.
 
 
 <h2 id="acknowledgement">Acknowledgement</h2>
