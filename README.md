@@ -44,7 +44,11 @@ A careful data preparation has been carried out, among them
 
 <h2 id="models">Deep Learning model</h2>
 
-...
+<p align="center">
+<br><br><img src="Pictures/model.jpeg" width="600" height="400">
+</p>
+<br>
+<p>
 
 </ul>
 
