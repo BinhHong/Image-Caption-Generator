@@ -66,7 +66,7 @@ Image | Caption
 <h2 id="acknowledgement">Acknowledgement</h2>
 This project is inspired by the works of 
 <ul>
-    <li> <a href="[https://www.youtube.com/watch?v=Nt7WJa2iu0s&list=PLQ22X3eLL96fi00hQL2VNaX-OKuDZ3H7s&index=11](https://github.com/yash-sarwaswa/Image-Caption-Generator/tree/main)"> Yash Sarwaswa </a> </li>
-    <li> <a href="[https://www.youtube.com/watch?v=Nt7WJa2iu0s&list=PLQ22X3eLL96fi00hQL2VNaX-OKuDZ3H7s&index=11](https://github.com/riad5089/Image_Caption_Generator)"> Md Abdur Sobhan Riad</a> </li>
+    <li> <a href="https://www.youtube.com/watch?v=Nt7WJa2iu0s&list=PLQ22X3eLL96fi00hQL2VNaX-OKuDZ3H7s&index=11](https://github.com/yash-sarwaswa/Image-Caption-Generator/tree/main"> Yash Sarwaswa </a> </li>
+    <li> <a href="https://www.youtube.com/watch?v=Nt7WJa2iu0s&list=PLQ22X3eLL96fi00hQL2VNaX-OKuDZ3H7s&index=11](https://github.com/riad5089/Image_Caption_Generator"> Md Abdur Sobhan Riad</a> </li>
       
 </ul>
